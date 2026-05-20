@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "AI 툴킷",
+    "tagline": "최고의 AI 도구를 한곳에서",
+    "description": "{count}개의 엄선된 AI 툴을 카테고리별로 탐색하세요",
+    "submitRequest": "도구 등록 요청 →",
+    "submitEmail": "도구 등록 문의:",
+    "backToHome": "AI 툴킷으로 돌아가기",
+    "backToHomeLink": "← AI 툴킷 홈으로"
+  },
+  "search": {
+    "placeholder": "AI 도구 검색... (예: 이미지, 코딩, 글쓰기)",
+    "resultsFor": "\"{query}\" 검색 결과",
+    "noResults": "검색 결과가 없습니다",
+    "noResultsHint": "다른 키워드로 검색해보세요"
+  },
+  "category": {
+    "all": "전체",
+    "writing": "글쓰기",
+    "image": "이미지",
+    "coding": "코딩",
+    "productivity": "생산성",
+    "video": "비디오",
+    "audio": "오디오",
+    "chatbot": "챗봇",
+    "research": "리서치",
+    "design": "디자인",
+    "automation": "자동화"
+  },
+  "pricing": {
+    "free": "무료",
+    "freemium": "무료/유료",
+    "paid": "유료"
+  },
+  "tool": {
+    "featured": "추천",
+    "viewDetail": "자세히 보기",
+    "visitSite": "{name} 방문하기",
+    "introduction": "소개",
+    "tags": "태그",
+    "pricingPlans": "요금제",
+    "info": "정보",
+    "category": "카테고리",
+    "price": "가격",
+    "addedAt": "등록일",
+    "recommended": "추천",
+    "allTools": "전체 AI 도구",
+    "categoryTools": "{category} 도구",
+    "featuredTools": "⭐ 추천 AI 도구",
+    "count": "{count}개"
+  }
+}

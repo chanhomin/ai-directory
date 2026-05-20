@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { CATEGORIES } from "@/lib/tools";
 import { cn } from "@/lib/utils";
 
@@ -8,10 +9,9 @@ interface CategoryFilterProps {
   onChange: (category: string) => void;
 }
 
-export default function CategoryFilter({
-  selected,
-  onChange,
-}: CategoryFilterProps) {
+export default function CategoryFilter({ selected, onChange }: CategoryFilterProps) {
+  const t = useTranslations("category");
+
   return (
     <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
       {CATEGORIES.map((cat) => (
@@ -25,7 +25,7 @@ export default function CategoryFilter({
               : "bg-white text-gray-600 border border-gray-200 hover:border-indigo-300 hover:text-indigo-600"
           )}
         >
-          {cat.label}
+          {t(cat.id as Parameters<typeof t>[0])}
         </button>
       ))}
     </div>

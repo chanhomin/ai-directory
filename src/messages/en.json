@@ -1,0 +1,52 @@
+{
+  "site": {
+    "name": "AI Toolkit",
+    "tagline": "The Best AI Tools, All in One Place",
+    "description": "Explore {count} handpicked AI tools by category",
+    "submitRequest": "Submit a Tool →",
+    "submitEmail": "Submit inquiry:",
+    "backToHome": "Back to AI Toolkit",
+    "backToHomeLink": "← Back to AI Toolkit"
+  },
+  "search": {
+    "placeholder": "Search AI tools... (e.g. image, coding, writing)",
+    "resultsFor": "Results for \"{query}\"",
+    "noResults": "No results found",
+    "noResultsHint": "Try a different keyword"
+  },
+  "category": {
+    "all": "All",
+    "writing": "Writing",
+    "image": "Image",
+    "coding": "Coding",
+    "productivity": "Productivity",
+    "video": "Video",
+    "audio": "Audio",
+    "chatbot": "Chatbot",
+    "research": "Research",
+    "design": "Design",
+    "automation": "Automation"
+  },
+  "pricing": {
+    "free": "Free",
+    "freemium": "Free / Paid",
+    "paid": "Paid"
+  },
+  "tool": {
+    "featured": "Featured",
+    "viewDetail": "Learn More",
+    "visitSite": "Visit {name}",
+    "introduction": "About",
+    "tags": "Tags",
+    "pricingPlans": "Pricing",
+    "info": "Info",
+    "category": "Category",
+    "price": "Price",
+    "addedAt": "Added",
+    "recommended": "Best",
+    "allTools": "All AI Tools",
+    "categoryTools": "{category} Tools",
+    "featuredTools": "⭐ Featured Tools",
+    "count": "{count} tools"
+  }
+}

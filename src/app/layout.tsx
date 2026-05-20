@@ -13,10 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI 툴킷 — 최고의 AI 도구 디렉토리",
-  description:
-    "최고의 AI 도구들을 카테고리별로 탐색하세요. 글쓰기, 이미지 생성, 코딩, 생산성 등 다양한 AI 툴을 한곳에서.",
-  keywords: "AI 도구, AI 툴, 인공지능, ChatGPT, Midjourney, Claude, AI 디렉토리",
+  title: "AI Toolkit",
+  description: "The best AI tools, all in one place.",
 };
 
 export default function RootLayout({
@@ -25,10 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
