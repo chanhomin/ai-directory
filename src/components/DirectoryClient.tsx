@@ -29,7 +29,7 @@ export default function DirectoryClient() {
             <span className="font-bold text-gray-900 text-lg">AI 툴킷</span>
           </div>
           <a
-            href="mailto:submit@aitoolkit.kr"
+            href="mailto:alscksgh@gmail.com"
             className="text-sm text-indigo-600 hover:text-indigo-700 font-medium"
           >
             도구 등록 요청 →
@@ -123,10 +123,10 @@ export default function DirectoryClient() {
         <p className="mt-3">
           도구 등록 문의:{" "}
           <a
-            href="mailto:submit@aitoolkit.kr"
+            href="mailto:alscksgh@gmail.com"
             className="text-indigo-500 hover:underline"
           >
-            submit@aitoolkit.kr
+            alscksgh@gmail.com
           </a>
         </p>
       </footer>
